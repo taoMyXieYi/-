@@ -15,6 +15,16 @@
 		933993D0210818F3003A3E86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 933993CF210818F3003A3E86 /* main.m */; };
 		933993DA210818F3003A3E86 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933993D9210818F3003A3E86 /* ____Tests.m */; };
 		933993E5210818F3003A3E86 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933993E4210818F3003A3E86 /* ____UITests.m */; };
+		933993F321081B8B003A3E86 /* 123.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 933993F221081B8A003A3E86 /* 123.mp4 */; };
+		933993F6210852DB003A3E86 /* YXVideoEditTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 933993F5210852DB003A3E86 /* YXVideoEditTool.m */; };
+		933993F92109602B003A3E86 /* YXVideoRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 933993F82109602B003A3E86 /* YXVideoRangeSlider.m */; };
+		933A389D2149FDE40017DD67 /* YXVideoEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933A38982149FDE30017DD67 /* YXVideoEditViewController.xib */; };
+		933A389E2149FDE40017DD67 /* YXVideoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A38992149FDE30017DD67 /* YXVideoEditViewController.m */; };
+		933A389F2149FDE40017DD67 /* YXSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A389B2149FDE40017DD67 /* YXSliderView.m */; };
+		93B636FF21096B3C00BA783E /* YXVideoLeftSilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B636FE21096B3C00BA783E /* YXVideoLeftSilder.m */; };
+		93B6370221096B4B00BA783E /* YXVideoRightSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6370121096B4B00BA783E /* YXVideoRightSlider.m */; };
+		93B637052109D0ED00BA783E /* YXImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B637042109D0ED00BA783E /* YXImageCollectionViewCell.m */; };
+		93B63707210AE9FF00BA783E /* cutVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93B63706210AE9FF00BA783E /* cutVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,25 @@
 		933993E0210818F3003A3E86 /* 视频剪切UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "视频剪切UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		933993E4210818F3003A3E86 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		933993E6210818F3003A3E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933993F221081B8A003A3E86 /* 123.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 123.mp4; sourceTree = "<group>"; };
+		933993F4210852DB003A3E86 /* YXVideoEditTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXVideoEditTool.h; sourceTree = "<group>"; };
+		933993F5210852DB003A3E86 /* YXVideoEditTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXVideoEditTool.m; sourceTree = "<group>"; };
+		933993F72109602B003A3E86 /* YXVideoRangeSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXVideoRangeSlider.h; sourceTree = "<group>"; };
+		933993F82109602B003A3E86 /* YXVideoRangeSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXVideoRangeSlider.m; sourceTree = "<group>"; };
+		933A38982149FDE30017DD67 /* YXVideoEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXVideoEditViewController.xib; sourceTree = "<group>"; };
+		933A38992149FDE30017DD67 /* YXVideoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXVideoEditViewController.m; sourceTree = "<group>"; };
+		933A389A2149FDE40017DD67 /* YXSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXSliderView.h; sourceTree = "<group>"; };
+		933A389B2149FDE40017DD67 /* YXSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXSliderView.m; sourceTree = "<group>"; };
+		933A389C2149FDE40017DD67 /* YXVideoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXVideoEditViewController.h; sourceTree = "<group>"; };
+		933A38A0214A008A0017DD67 /* YXUIAssistDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXUIAssistDefine.h; sourceTree = "<group>"; };
+		933A38A2214A00DA0017DD67 /* YXGlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXGlobalDefine.h; sourceTree = "<group>"; };
+		93B636FD21096B3C00BA783E /* YXVideoLeftSilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXVideoLeftSilder.h; sourceTree = "<group>"; };
+		93B636FE21096B3C00BA783E /* YXVideoLeftSilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXVideoLeftSilder.m; sourceTree = "<group>"; };
+		93B6370021096B4B00BA783E /* YXVideoRightSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXVideoRightSlider.h; sourceTree = "<group>"; };
+		93B6370121096B4B00BA783E /* YXVideoRightSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXVideoRightSlider.m; sourceTree = "<group>"; };
+		93B637032109D0ED00BA783E /* YXImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXImageCollectionViewCell.h; sourceTree = "<group>"; };
+		93B637042109D0ED00BA783E /* YXImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXImageCollectionViewCell.m; sourceTree = "<group>"; };
+		93B63706210AE9FF00BA783E /* cutVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cutVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +130,13 @@
 		933993BF210818EF003A3E86 /* 视频剪切 */ = {
 			isa = PBXGroup;
 			children = (
+				933993FA21096969003A3E86 /* slider */,
+				933993F221081B8A003A3E86 /* 123.mp4 */,
+				93B63706210AE9FF00BA783E /* cutVideo.mp4 */,
 				933993C0210818EF003A3E86 /* AppDelegate.h */,
 				933993C1210818EF003A3E86 /* AppDelegate.m */,
+				933A38A2214A00DA0017DD67 /* YXGlobalDefine.h */,
+				933A38A0214A008A0017DD67 /* YXUIAssistDefine.h */,
 				933993C3210818EF003A3E86 /* ViewController.h */,
 				933993C4210818EF003A3E86 /* ViewController.m */,
 				933993C6210818EF003A3E86 /* Main.storyboard */,
@@ -130,6 +164,28 @@
 				933993E6210818F3003A3E86 /* Info.plist */,
 			);
 			path = "视频剪切UITests";
+			sourceTree = "<group>";
+		};
+		933993FA21096969003A3E86 /* slider */ = {
+			isa = PBXGroup;
+			children = (
+				933A389A2149FDE40017DD67 /* YXSliderView.h */,
+				933A389B2149FDE40017DD67 /* YXSliderView.m */,
+				933A389C2149FDE40017DD67 /* YXVideoEditViewController.h */,
+				933A38992149FDE30017DD67 /* YXVideoEditViewController.m */,
+				933A38982149FDE30017DD67 /* YXVideoEditViewController.xib */,
+				933993F4210852DB003A3E86 /* YXVideoEditTool.h */,
+				933993F5210852DB003A3E86 /* YXVideoEditTool.m */,
+				933993F72109602B003A3E86 /* YXVideoRangeSlider.h */,
+				933993F82109602B003A3E86 /* YXVideoRangeSlider.m */,
+				93B636FD21096B3C00BA783E /* YXVideoLeftSilder.h */,
+				93B636FE21096B3C00BA783E /* YXVideoLeftSilder.m */,
+				93B6370021096B4B00BA783E /* YXVideoRightSlider.h */,
+				93B6370121096B4B00BA783E /* YXVideoRightSlider.m */,
+				93B637032109D0ED00BA783E /* YXImageCollectionViewCell.h */,
+				93B637042109D0ED00BA783E /* YXImageCollectionViewCell.m */,
+			);
+			path = slider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +291,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933993F321081B8B003A3E86 /* 123.mp4 in Resources */,
 				933993CD210818F3003A3E86 /* LaunchScreen.storyboard in Resources */,
 				933993CA210818F3003A3E86 /* Assets.xcassets in Resources */,
+				933A389D2149FDE40017DD67 /* YXVideoEditViewController.xib in Resources */,
+				93B63707210AE9FF00BA783E /* cutVideo.mp4 in Resources */,
 				933993C8210818EF003A3E86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B6370221096B4B00BA783E /* YXVideoRightSlider.m in Sources */,
+				93B637052109D0ED00BA783E /* YXImageCollectionViewCell.m in Sources */,
+				933993F92109602B003A3E86 /* YXVideoRangeSlider.m in Sources */,
+				933993F6210852DB003A3E86 /* YXVideoEditTool.m in Sources */,
+				933A389E2149FDE40017DD67 /* YXVideoEditViewController.m in Sources */,
 				933993C5210818EF003A3E86 /* ViewController.m in Sources */,
 				933993D0210818F3003A3E86 /* main.m in Sources */,
 				933993C2210818EF003A3E86 /* AppDelegate.m in Sources */,
+				933A389F2149FDE40017DD67 /* YXSliderView.m in Sources */,
+				93B636FF21096B3C00BA783E /* YXVideoLeftSilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +499,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KN6539LSM;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = "视频剪切/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,6 +508,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "wangtao.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41eaf476-bb76-4cb9-b2e9-b856cc3e9d97";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,8 +518,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KN6539LSM;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "视频剪切/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +527,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "wangtao.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

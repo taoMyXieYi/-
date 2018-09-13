@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YXVideoEditViewController">
+            <connections>
+                <outlet property="bgImageView" destination="h50-ac-8Co" id="aNO-nf-NiU"/>
+                <outlet property="view" destination="6Hh-wo-glz" id="fR5-5l-Y21"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6Hh-wo-glz">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bOr-m2-qig" userLabel="TopBar">
+                    <rect key="frame" x="0.0" y="30" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oz-Dp-JOm">
+                            <rect key="frame" x="321" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="9oz-Dp-JOm" secondAttribute="height" multiplier="1:1" id="X9I-z5-Hvm"/>
+                            </constraints>
+                            <state key="normal" image="bianji_baocun"/>
+                            <connections>
+                                <action selector="saveAction:" destination="-1" eventType="touchUpInside" id="RIq-Ow-ddC"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="从视频中选取图片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVO-S7-wbR">
+                            <rect key="frame" x="114" y="0.0" width="147" height="44"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9h-oa-U6L">
+                            <rect key="frame" x="10" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="j9h-oa-U6L" secondAttribute="height" multiplier="1:1" id="9hH-dO-wU0"/>
+                            </constraints>
+                            <state key="normal" image="back_light"/>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="M2T-1b-3dA"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="2xJ-OK-NKy"/>
+                        <constraint firstItem="j9h-oa-U6L" firstAttribute="leading" secondItem="bOr-m2-qig" secondAttribute="leading" constant="10" id="4Ke-r2-8Fo"/>
+                        <constraint firstAttribute="bottom" secondItem="j9h-oa-U6L" secondAttribute="bottom" id="9gz-ba-vCW"/>
+                        <constraint firstAttribute="trailing" secondItem="9oz-Dp-JOm" secondAttribute="trailing" constant="10" id="EdO-NH-UUE"/>
+                        <constraint firstItem="lVO-S7-wbR" firstAttribute="top" secondItem="bOr-m2-qig" secondAttribute="top" id="Hmg-I1-INB"/>
+                        <constraint firstAttribute="bottom" secondItem="9oz-Dp-JOm" secondAttribute="bottom" id="IOY-Du-J5G"/>
+                        <constraint firstAttribute="bottom" secondItem="lVO-S7-wbR" secondAttribute="bottom" id="fwW-Vh-cAQ"/>
+                        <constraint firstItem="lVO-S7-wbR" firstAttribute="centerX" secondItem="bOr-m2-qig" secondAttribute="centerX" id="prk-0B-KbP"/>
+                        <constraint firstItem="9oz-Dp-JOm" firstAttribute="top" secondItem="bOr-m2-qig" secondAttribute="top" id="vlH-pj-XLV"/>
+                        <constraint firstItem="j9h-oa-U6L" firstAttribute="top" secondItem="bOr-m2-qig" secondAttribute="top" id="yGe-Pv-gvg"/>
+                    </constraints>
+                </view>
+                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h50-ac-8Co">
+                    <rect key="frame" x="20" y="94" width="335" height="463"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.1960784314" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="h50-ac-8Co" firstAttribute="top" secondItem="bOr-m2-qig" secondAttribute="bottom" constant="20" id="KIg-pf-9pT"/>
+                <constraint firstItem="bOr-m2-qig" firstAttribute="top" secondItem="M31-Ic-gfl" secondAttribute="top" constant="10" id="P6h-kx-UHB"/>
+                <constraint firstItem="M31-Ic-gfl" firstAttribute="trailing" secondItem="h50-ac-8Co" secondAttribute="trailing" constant="20" id="nev-bi-FHp"/>
+                <constraint firstItem="M31-Ic-gfl" firstAttribute="trailing" secondItem="bOr-m2-qig" secondAttribute="trailing" id="o12-fB-yK1"/>
+                <constraint firstItem="M31-Ic-gfl" firstAttribute="bottom" secondItem="h50-ac-8Co" secondAttribute="bottom" constant="110" id="wjH-9S-uBK"/>
+                <constraint firstItem="bOr-m2-qig" firstAttribute="leading" secondItem="M31-Ic-gfl" secondAttribute="leading" id="xjf-zp-Z0a"/>
+                <constraint firstItem="h50-ac-8Co" firstAttribute="leading" secondItem="M31-Ic-gfl" secondAttribute="leading" constant="20" id="zQd-fo-qGl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="M31-Ic-gfl"/>
+            <point key="canvasLocation" x="-2089" y="-227"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back_light" width="12" height="21"/>
+        <image name="bianji_baocun" width="25" height="17"/>
+    </resources>
+</document>

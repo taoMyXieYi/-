@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "YXVideoEditViewController.h"
+
 
 @interface ViewController ()
+
 
 @end
 
@@ -16,13 +19,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *tapButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    tapButton.backgroundColor = [UIColor redColor];
+    tapButton.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:tapButton];
+    [tapButton addTarget:self action:@selector(tapAction) forControlEvents:UIControlEventTouchUpInside];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)tapAction {
+    NSString *pathString = [[NSBundle mainBundle] pathForResource:@"cutVideo" ofType:@"mp4"];
+    NSURL *url = [NSURL fileURLWithPath:pathString];
+    YXVideoEditViewController *VC = [[YXVideoEditViewController alloc] init];
+    VC.videoURL = url;
+    [self presentViewController:VC animated:YES completion:nil];
 }
 
 
